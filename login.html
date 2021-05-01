@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="main.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container"><a class="header__logo" href="/"><img class="header__logo-icon" src="img/logo.png" alt=""></a><a class="header__tel" href="tel:+1234567890"><img class="header__tel-icon" src="img/tel-icon.svg" alt=""><span>+1 8445 851 422</span></a><a class="header__link" href="/contact.html">Contact</a>
+        <div class="header__separator"></div><a class="header__link" href="/login.html">Login</a><a class="header__link" href="#">Signup</a><a class="header__btn btn" href="#">Post an ad</a>
+      </div>
+    </header>
+    <section class="login">
+      <div class="container">
+        <div class="crumbs"><span class="crumbs__text">You are here:</span><a class="crumbs__link" href="/">Home</a><span class="crumbs__current">Login </span></div>
+        <div class="login__main">
+          <div class="block">
+            <div class="block__item">
+              <h4 class="block__text">You can login to <span class="block__text--strong">backend</span> using <span class="block__text--strong">'test'</span> as username and password <a href="#">https://drive.joomla-monster.com/jm-myplace/administrator/</a> </h4>
+            </div>
+            <div class="block__item block__item--blue">
+              <h4 class="block__text">You can login to <span class="block__text--strong">frontend</span> using <span class="block__text--strong">'test'</span> as username and password <a href="#">https://drive.joomla-monster.com/jm-myplace/en/login-form/</a></h4>
+            </div>
+          </div>
+          <h1 class="login__title">Login</h1>
+          <form class="login-form">
+            <div class="login-form__field">
+              <label class="login-form__label required" for="name">Username</label>
+              <input type="text" id="name">
+            </div>
+            <div class="login-form__field">
+              <label class="login-form__label required" for="password">Password</label>
+              <input type="password" id="password">
+            </div>
+            <div class="login-form__agree">
+              <label class="login-form__label" for="agree">Remember me</label>
+              <input type="checkbox" id="agree">
+            </div>
+            <button class="login-form__btn btn" type="submit">Log in</button>
+          </form>
+          <div class="login__links"><a class="login__links-item link-border" href="#">Forgot your password?</a><a class="login__links-item link-border" href="#">Forgot your username?</a></div>
+        </div>
+        <div class="other">
+          <h4 class="other__title">Other pages</h4>
+          <ul class="other__list">
+            <li class="other__list-item active"><a class="other__list-link" href="/">Main</a></li>
+            <li class="other__list-item"><a class="other__list-link" href="/login.html">Login</a></li>
+            <li class="other__list-item"><a class="other__list-link" href="/404.html">Error 404</a></li>
+            <li class="other__list-item"><a class="other__list-link" href="/soon.html">Comming soon</a></li>
+            <li class="other__list-item"><a class="other__list-link" href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/">Our company</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/">Partners</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/">Terms of use</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/">Privacy policy</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/">News</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/contact.html">Contact us</a></li>
+      </ul>
+      <ul class="footer__social">
+        <li class="footer__social-item"><a class="footer__social-link" href="/" target="_blanc"><img src="img/social/facebook-icon.svg" alt="facebook"></a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="/" target="_blanc"><img src="img/social/twitter-icon.svg" alt="twitter"></a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="/" target="_blanc"><img src="img/social/instagram-icon.svg" alt="instagram"></a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="/" target="_blanc"><img src="img/social/in-icon.svg" alt="in"></a></li>
+      </ul><img src="img/footer-company.svg" alt="">
+      <div class="footer__copy">
+        <p>JM MyPlace © All Rights Reserved.</p>
+        <p>Joomla Templates by Joomla-Monster.com</p>
+      </div>
+    </footer>
+    <script src="main.min.js"> </script>
+  </body>
+</html>
